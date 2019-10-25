@@ -1,4 +1,4 @@
-mod modulo00 {
+pub mod modulo00 {
     pub struct Dato(pub u32, pub u32);
     pub trait Consumible {
         fn consumir(&self, par01: &Dato) -> (u32, u32);
